@@ -1,0 +1,153 @@
+[
+    {
+      "question": "You find a wallet with cash and no ID, but with a store loyalty card. What’s a smart step?",
+      "options": ["Keep the cash", "Throw it away", "Use the card to trace the owner", "Leave it where you found it"],
+      "answer": "Use the card to trace the owner"
+    },
+    {
+      "question": "Your coworker takes credit for your idea in a meeting. What should you do?",
+      "options": ["Complain to HR immediately", "Call them out rudely", "Follow up with your manager politely", "Ignore it"],
+      "answer": "Follow up with your manager politely"
+    },
+    {
+      "question": "You see two news articles with opposite claims. What’s a logical step?",
+      "options": ["Believe the one you agree with", "Search for unbiased sources", "Ignore both", "Ask friends which one is true"],
+      "answer": "Search for unbiased sources"
+    },
+    {
+      "question": "Your sibling insists on a belief with no evidence. What’s a respectful response?",
+      "options": ["Laugh at them", "Debate aggressively", "Ask for sources and offer yours", "Just agree to avoid conflict"],
+      "answer": "Ask for sources and offer yours"
+    },
+    {
+      "question": "You're offered a free trial with hidden conditions. What do you do?",
+      "options": ["Ignore terms", "Read fine print carefully", "Ask a friend", "Accept and cancel later"],
+      "answer": "Read fine print carefully"
+    },
+    {
+      "question": "A coworker shares a conspiracy theory. How do you respond?",
+      "options": ["Join the discussion", "Dismiss them rudely", "Politely question the evidence", "Forward it to others"],
+      "answer": "Politely question the evidence"
+    },
+    {
+      "question": "You’re choosing between two jobs. What’s a critical consideration?",
+      "options": ["Salary alone", "Company culture, role, and growth", "Commute time only", "Which office looks nicer"],
+      "answer": "Company culture, role, and growth"
+    },
+    {
+      "question": "You’re given a confusing task. What’s the best move?",
+      "options": ["Guess what to do", "Ask for clarification", "Ignore the confusion", "Let someone else do it"],
+      "answer": "Ask for clarification"
+    },
+    {
+      "question": "A friend sends you health tips that seem unscientific. What do you do?",
+      "options": ["Believe them", "Research using medical sites", "Forward it", "Try it out"],
+      "answer": "Research using medical sites"
+    },
+    {
+      "question": "Your teammate is struggling silently. What’s a thoughtful approach?",
+      "options": ["Let them be", "Blame them for slow work", "Offer support privately", "Tell the manager immediately"],
+      "answer": "Offer support privately"
+    },
+    {
+      "question": "You're evaluating a political claim. What's a smart approach?",
+      "options": ["Trust your favorite leader", "Fact-check across sources", "Share it instantly", "Ignore it"],
+      "answer": "Fact-check across sources"
+    },
+    {
+      "question": "A relative offers financial advice without expertise. What’s wise?",
+      "options": ["Take it blindly", "Check with a certified advisor", "Get a second opinion online", "Do nothing"],
+      "answer": "Check with a certified advisor"
+    },
+    {
+      "question": "You have conflicting feedback from two mentors. What now?",
+      "options": ["Pick whoever you like more", "Reflect and balance both views", "Reject both", "Follow the strictest one"],
+      "answer": "Reflect and balance both views"
+    },
+    {
+      "question": "You’re asked to mediate a friend conflict. What's your role?",
+      "options": ["Take sides", "Help both express clearly", "Ignore the issue", "Tell others about it"],
+      "answer": "Help both express clearly"
+    },
+    {
+      "question": "You’re emotionally upset. When should you make decisions?",
+      "options": ["Right away", "Wait until calm", "Ask others to decide", "Make random choices"],
+      "answer": "Wait until calm"
+    },
+    {
+      "question": "You suspect data manipulation at work. What’s a responsible step?",
+      "options": ["Keep quiet", "Discuss privately with a senior", "Spread it to coworkers", "Post online"],
+      "answer": "Discuss privately with a senior"
+    },
+    {
+      "question": "You’re reviewing a report with gaps in data. What’s critical thinking?",
+      "options": ["Assume it’s accurate", "Ask for clarification", "Ignore the gaps", "Just accept it"],
+      "answer": "Ask for clarification"
+    },
+    {
+      "question": "A company offers fast results with no evidence. What should you do?",
+      "options": ["Believe the claim", "Check for scientific backing", "Try it anyway", "Buy now, decide later"],
+      "answer": "Check for scientific backing"
+    },
+    {
+      "question": "A peer misinterprets your message. What’s a logical fix?",
+      "options": ["Ignore it", "Clarify respectfully", "Blame them", "Send it again angrily"],
+      "answer": "Clarify respectfully"
+    },
+    {
+      "question": "You’re researching a topic but find biased sources. What’s next?",
+      "options": ["Use them anyway", "Find more neutral sources", "Give up", "Ask social media"],
+      "answer": "Find more neutral sources"
+    },
+    {
+      "question": "Your gut feeling says no, but the facts say yes. What wins?",
+      "options": ["Go with your gut", "Follow the evidence", "Do nothing", "Flip a coin"],
+      "answer": "Follow the evidence"
+    },
+    {
+      "question": "You're asked to donate urgently to an unknown cause. What’s wise?",
+      "options": ["Donate instantly", "Research before donating", "Ignore it forever", "Ask your friend first"],
+      "answer": "Research before donating"
+    },
+    {
+      "question": "You receive bad feedback. What shows critical thinking?",
+      "options": ["Deny it", "Analyze and improve", "Blame others", "Ignore it"],
+      "answer": "Analyze and improve"
+    },
+    {
+      "question": "You’re managing a project and fall behind. What should you do?",
+      "options": ["Lie about progress", "Update team and replan", "Do it all alone", "Quit"],
+      "answer": "Update team and replan"
+    },
+    {
+      "question": "Someone challenges your belief with logic. How do you respond?",
+      "options": ["Get defensive", "Evaluate their reasoning", "Shut them down", "Change the topic"],
+      "answer": "Evaluate their reasoning"
+    },
+    {
+      "question": "You notice a pattern in failed decisions. What next?",
+      "options": ["Keep doing the same", "Reflect and adapt", "Blame luck", "Ask others to change"],
+      "answer": "Reflect and adapt"
+    },
+    {
+      "question": "You hear a friend was fired unfairly. What do you do first?",
+      "options": ["Spread the news", "Hear their side and check facts", "Post online", "Blame their manager"],
+      "answer": "Hear their side and check facts"
+    },
+    {
+      "question": "A video seems fake, but has millions of views. What’s a smart move?",
+      "options": ["Believe it", "Check its source and authenticity", "Share it fast", "Comment without checking"],
+      "answer": "Check its source and authenticity"
+    },
+    {
+      "question": "You’ve made a decision that caused issues. What now?",
+      "options": ["Blame others", "Take responsibility", "Avoid the topic", "Justify it strongly"],
+      "answer": "Take responsibility"
+    },
+    {
+      "question": "You’re given conflicting health advice. What’s best?",
+      "options": ["Try everything", "Check with a qualified doctor", "Trust the loudest", "Do what friends do"],
+      "answer": "Check with a qualified doctor"
+    }
+  ]
+  

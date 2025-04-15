@@ -1,0 +1,157 @@
+[
+  {
+      "question": "You receive a call claiming to be from your bank asking for your PIN. What should you do?",
+      "options": ["Give the PIN", "Hang up and call the bank", "Ignore the call", "Ask them to call back"],
+      "answer": "Hang up and call the bank"
+  },
+  {
+      "question": "A neighbor asks to borrow a large amount of money. What should you consider first?",
+      "options": ["How much you like them", "Their financial history", "Your own financial situation", "The interest rate"],
+      "answer": "Your own financial situation"
+  },
+  {
+      "question": "You overhear someone spreading a rumor about a friend. What is the best action?",
+      "options": ["Spread it too", "Confront them angrily", "Tell your friend immediately", "Verify before reacting"],
+      "answer": "Verify before reacting"
+  },
+  {
+      "question": "You get an email saying you won a lottery you never entered. What should you do?",
+      "options": ["Click the link", "Ignore it", "Forward it to friends", "Send your bank details"],
+      "answer": "Ignore it"
+  },
+  {
+      "question": "You're choosing a new doctor. What’s the most important factor?",
+      "options": ["Proximity", "Cost only", "Their qualifications and reviews", "Looks"],
+      "answer": "Their qualifications and reviews"
+  },
+  {
+      "question": "Your friend insists a health remedy works but you’re unsure. What should you do?",
+      "options": ["Try it immediately", "Check reliable medical sources", "Ask a neighbor", "Post about it online"],
+      "answer": "Check reliable medical sources"
+  },
+  {
+      "question": "You see someone struggling with their groceries. What’s the best response?",
+      "options": ["Walk past", "Offer to help", "Wait for someone else to help", "Watch quietly"],
+      "answer": "Offer to help"
+  },
+  {
+      "question": "A salesperson is pushing you to buy immediately. What do you do?",
+      "options": ["Give in", "Buy to avoid pressure", "Think and return later", "Leave rudely"],
+      "answer": "Think and return later"
+  },
+  {
+      "question": "You're asked to sign a long contract. What should you do?",
+      "options": ["Sign quickly", "Only read the first page", "Skim through", "Read carefully"],
+      "answer": "Read carefully"
+  },
+  {
+      "question": "Your grandchild spends too much time on screens. How should you address it?",
+      "options": ["Scold them", "Talk and suggest balance", "Take devices away", "Ignore it"],
+      "answer": "Talk and suggest balance"
+  },
+  {
+      "question": "A new medication causes unexpected side effects. What should you do?",
+      "options": ["Stop without asking", "Google a fix", "Call your doctor", "Ignore the symptoms"],
+      "answer": "Call your doctor"
+  },
+  {
+      "question": "Someone is selling cheap gold jewelry on the street. What should you do?",
+      "options": ["Buy it quickly", "Ask for receipts", "Walk away", "Compare prices online"],
+      "answer": "Walk away"
+  },
+  {
+      "question": "You’re asked to invest in a friend's business idea. What’s your first step?",
+      "options": ["Say yes", "Ask for detailed plan", "Check bank balance", "Call other friends"],
+      "answer": "Ask for detailed plan"
+  },
+  {
+      "question": "You’re feeling unusually tired for several days. What should you do?",
+      "options": ["Sleep more", "Ignore it", "Visit a doctor", "Drink coffee"],
+      "answer": "Visit a doctor"
+  },
+  {
+      "question": "A grandchild asks for your ATM PIN. What should you do?",
+      "options": ["Tell them", "Say no and explain", "Ignore them", "Ask why they need it"],
+      "answer": "Say no and explain"
+  },
+  {
+      "question": "You’re offered a job requiring computer skills you don’t have. What should you do?",
+      "options": ["Decline immediately", "Ask for training", "Guess your way", "Pretend you know"],
+      "answer": "Ask for training"
+  },
+  {
+      "question": "A friend insists a news article is true. How do you check?",
+      "options": ["Trust them", "Search for it on credible sites", "Check Facebook comments", "Ignore it"],
+      "answer": "Search for it on credible sites"
+  },
+  {
+      "question": "You forget a friend's birthday. What should you do?",
+      "options": ["Ignore it", "Lie", "Apologize sincerely", "Send a late gift anonymously"],
+      "answer": "Apologize sincerely"
+  },
+  {
+      "question": "You hear of a major scam in your city. What’s a smart action?",
+      "options": ["Warn others with proof", "Panic", "Ignore the news", "Start rumors"],
+      "answer": "Warn others with proof"
+  },
+  {
+      "question": "You receive a wrong item online. What should you do?",
+      "options": ["Accept it", "Call the seller", "Throw it away", "Keep it quietly"],
+      "answer": "Call the seller"
+  },
+  {
+      "question": "Your friend talks behind your back. What's a mature response?",
+      "options": ["Yell at them", "Ignore forever", "Confront politely", "Talk to others about it"],
+      "answer": "Confront politely"
+  },
+  {
+      "question": "You’re asked to donate to a charity. How do you verify it’s real?",
+      "options": ["Donate blindly", "Check their website and reviews", "Ask a neighbor", "Search social media"],
+      "answer": "Check their website and reviews"
+  },
+  {
+      "question": "You want to buy a product online. What’s the safest method?",
+      "options": ["Use cash on delivery", "Give card details to a friend", "Use secure websites", "Click first result blindly"],
+      "answer": "Use secure websites"
+  },
+  {
+      "question": "You want to learn something new. What's the best approach?",
+      "options": ["Ignore the idea", "Watch YouTube only", "Join a course", "Wait for someone to teach you"],
+      "answer": "Join a course"
+  },
+  {
+      "question": "You feel lonely lately. What can help?",
+      "options": ["Avoid everyone", "Reach out to friends/family", "Move cities", "Sleep more"],
+      "answer": "Reach out to friends/family"
+  },
+  {
+      "question": "Your friend spreads misinformation on WhatsApp. What should you do?",
+      "options": ["Forward it too", "Correct them politely", "Ignore it", "Block them"],
+      "answer": "Correct them politely"
+  },
+  {
+      "question": "You want to switch your phone plan. What should you do?",
+      "options": ["Pick the cheapest blindly", "Ask a friend", "Compare plans and features", "Go to the store directly"],
+      "answer": "Compare plans and features"
+  },
+  {
+      "question": "You find money on the street. What's the ethical response?",
+      "options": ["Keep it", "Look for the owner or report it", "Give it to a friend", "Ignore it"],
+      "answer": "Look for the owner or report it"
+  },
+  {
+      "question": "Someone sends you a suspicious link. What do you do?",
+      "options": ["Click it", "Reply to them", "Delete and report", "Send it to others"],
+      "answer": "Delete and report"
+  },
+  {
+      "question": "You’re asked for advice you don’t feel qualified to give. What do you do?",
+      "options": ["Guess and answer", "Say you’re unsure", "Copy someone else’s answer", "Change the topic"],
+      "answer": "Say you’re unsure"
+  },
+  {
+      "question": "You see a social media post offering huge returns on investments. What do you do?",
+      "options": ["Invest quickly", "Report the post", "Ask for more info", "Tell your friend to invest too"],
+      "answer": "Report the post"
+  }
+]
