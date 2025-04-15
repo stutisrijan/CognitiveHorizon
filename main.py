@@ -2,14 +2,14 @@ import pygame
 import sys
 import subprocess
 
-# Initialize Pygame
+
 pygame.init()
-pygame.mixer.init()  # Initialize the mixer for sound
+pygame.mixer.init() 
 WIDTH, HEIGHT = 900, 600
 SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("🧠 Cognitive Horizon")
 
-# Load Backgrounds
+
 main_bg = pygame.image.load("images/main.jpg")
 main_bg = pygame.transform.scale(main_bg, (WIDTH, HEIGHT))
 
