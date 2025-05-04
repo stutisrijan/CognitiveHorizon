@@ -2,14 +2,11 @@ import pygame
 import sys
 import subprocess
 
-
 pygame.init()
-pygame.mixer.init() 
+pygame.mixer.init()
 WIDTH, HEIGHT = 900, 600
 SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("🧠 Cognitive Horizon")
-
-
 main_bg = pygame.image.load("images/main.jpg")
 main_bg = pygame.transform.scale(main_bg, (WIDTH, HEIGHT))
 
@@ -33,6 +30,15 @@ sort_img = pygame.transform.scale(sort_img, (BUTTON_WIDTH, BUTTON_HEIGHT))
 
 memory_img = pygame.image.load("images/memory.png")
 memory_img = pygame.transform.scale(memory_img, (BUTTON_WIDTH, BUTTON_HEIGHT))
+
+colourtrial_img = pygame.image.load("images/colourtrial.png")
+colourtrial_img = pygame.transform.scale(colourtrial_img, (BUTTON_WIDTH, BUTTON_HEIGHT))
+
+wordbuilder_img = pygame.image.load("images/wordbuilder.png")
+wordbuilder_img = pygame.transform.scale(wordbuilder_img, (BUTTON_WIDTH, BUTTON_HEIGHT))
+
+puzzle_img = pygame.image.load("images/puzzle.png")
+puzzle_img = pygame.transform.scale(puzzle_img, (BUTTON_WIDTH, BUTTON_HEIGHT))
 
 # Button Class
 class Button:
@@ -61,23 +67,38 @@ def start_memory_game():
     print("🧠 Launching Memory Game...")
     subprocess.run(["python", "memory.py"])
 
+def start_colour_trial():
+    print("🎨 Starting Colour Trial...")
+    subprocess.run(["python", "colourtrial.py"])
+
+def start_word_builder():
+    print("📝 Starting Word Builder...")
+    subprocess.run(["python", "builder.py"])
+
+def start_puzzle_game():
+    print("🧩 Launching Puzzle Game...")
+    subprocess.run(["python", "puzzlemain.py"])
+
 def quit_game():
     print("👋 Exiting Cognitive Horizon...")
-    pygame.mixer.music.stop()  # Stop the music when quitting
+    pygame.mixer.music.stop()
     pygame.quit()
     sys.exit()
 
 # Play Background Music
 def play_music():
-    pygame.mixer.music.load("music.mp3")  # Load the music file
-    pygame.mixer.music.play(-1)  # Play the music in a loop (-1 means infinite loop)
+    pygame.mixer.music.load("music.mp3")
+    pygame.mixer.music.play(-1)
 
 # Game Menu
 def game_menu():
     game_buttons = [
-        Button(320, 180, BUTTON_WIDTH, BUTTON_HEIGHT, start_quiz, image=quiz_img),
-        Button(320, 280, BUTTON_WIDTH, BUTTON_HEIGHT, start_water_sort, image=sort_img),
-        Button(320, 380, BUTTON_WIDTH, BUTTON_HEIGHT, start_memory_game, image=memory_img),
+        Button(80, 180, BUTTON_WIDTH, BUTTON_HEIGHT, start_quiz, image=quiz_img),
+        Button(80, 280, BUTTON_WIDTH, BUTTON_HEIGHT, start_water_sort, image=sort_img),
+        Button(80, 380, BUTTON_WIDTH, BUTTON_HEIGHT, start_memory_game, image=memory_img),
+        Button(560, 180, BUTTON_WIDTH, BUTTON_HEIGHT, start_colour_trial, image=colourtrial_img),
+        Button(560, 280, BUTTON_WIDTH, BUTTON_HEIGHT, start_word_builder, image=wordbuilder_img),
+        Button(560, 380, BUTTON_WIDTH, BUTTON_HEIGHT, start_puzzle_game, image=puzzle_img),
     ]
 
     while True:
@@ -96,7 +117,7 @@ def game_menu():
 
 # Main Menu
 def main_menu():
-    play_music()  # Start the background music when the main menu is shown
+    play_music()
     main_buttons = [
         Button(320, 300, BUTTON_WIDTH, BUTTON_HEIGHT, game_menu, image=play_img),
         Button(320, 400, BUTTON_WIDTH, BUTTON_HEIGHT, quit_game, image=exit_img),
