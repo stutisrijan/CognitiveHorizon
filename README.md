@@ -65,17 +65,21 @@
 ---
 
 ## 🚀 Getting Started
+### **Prerequisites**
 
-Installation
-Clone the repository:
+- **Python 3.x**
+- **Pygame**
+- **Internet access** for email functionality
 
-First, clone the repository to your local machine:
+### **Installation**
 
-bash
-Copy
-Edit
-git clone https://github.com/stutisrijan/CognitiveHorizon.git
-cd CognitiveHorizon
+1. **Clone the repository**:
+
+   First, clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/stutisrijan/CognitiveHorizon.git
+   cd CognitiveHorizon
 Install the dependencies:
 
 Install all required libraries:
