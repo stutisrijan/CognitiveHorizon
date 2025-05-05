@@ -75,7 +75,7 @@
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/cognitive-horizons.git
-cd cognitive-horizons
+git clone https://github.com/stutisrijan/CognitiveHorizon.git
+cd CognitiveHorizon
 pip install -r requirements.txt
 python main.py
