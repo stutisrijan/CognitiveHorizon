@@ -50,6 +50,7 @@
   - Includes metrics like accuracy, speed, improvement trends, and focus duration.
 
 ---
+![Banner](images/pic.png)
 
 
 ## 🛠️ Tech Stack
