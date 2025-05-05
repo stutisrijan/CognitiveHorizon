@@ -66,16 +66,42 @@
 
 ## 🚀 Getting Started
 
-### Prerequisites
+Installation
+Clone the repository:
 
-- Python 3.x
-- Pygame
-- Internet access for email functionality
+First, clone the repository to your local machine:
 
-### Installation
-
-```bash
+bash
+Copy
+Edit
 git clone https://github.com/stutisrijan/CognitiveHorizon.git
 cd CognitiveHorizon
+Install the dependencies:
+
+Install all required libraries:
+
+bash
+Copy
+Edit
 pip install -r requirements.txt
+Set up your environment variables:
+
+For security, sensitive information like email credentials should not be hard-coded into the source code. To manage this:
+
+Create a .env file in the root directory of the project.
+
+Add the following keys to the .env file (you'll need to replace your_email and your_password with your actual email credentials or API keys):
+
+text
+Copy
+Edit
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=your_password_or_app_specific_password
+Run the Project:
+
+Finally, run the project with:
+
+bash
+Copy
+Edit
 python main.py
