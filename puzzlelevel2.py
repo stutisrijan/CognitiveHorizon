@@ -50,9 +50,9 @@ shapes = ["circle", "square", "triangle", "diamond"]
 def send_email_report():
     try:
         print("📤 Attempting to send email...")
-        sender_email = 'sandeepchoudhary76100@gmail.com'
-        receiver_email = '22803021@mail.jiit.ac.in'
-        app_password = 'rmyp kazn xopc tiwz'
+        sender_email = os.getenv('EMAIL_USER')
+        app_password = os.getenv('EMAIL_PASS')
+        receiver_email = '22803011@mail.jiit.ac.in'
         subject = 'Report.pdf'
         body = 'Hello,\n\nPlease find attached the performance report.\n\nRegards,\nStuti'
 

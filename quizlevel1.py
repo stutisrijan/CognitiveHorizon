@@ -162,9 +162,9 @@ def generate_report():
 def send_email_report():
     try:
         print("📤 Attempting to send email...")
-        sender_email = 'srijanstuti553@gmail.com'
+        sender_email = os.getenv('EMAIL_USER')
+        app_password = os.getenv('EMAIL_PASS')
         receiver_email = '22803011@mail.jiit.ac.in'
-        app_password = 'xrgi zdny ajip kqox'
         subject = '🧠 Memory Game Report'
         body = 'Hello,\n\nPlease find attached the Memory Game performance report.\n\nRegards,\nStuti'
 

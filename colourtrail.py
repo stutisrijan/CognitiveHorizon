@@ -94,9 +94,9 @@ class ColorTrailsGameMain:
             messagebox.showerror("Error", "Generate the report before sending.")
             return
 
-        sender_email = "deepanshusingak3004@gmail.com"
-        receiver_email = "deepanshusinghal509@gmail.com"
-        password = "kogjezqdcrxpnxrr"
+        sender_email = os.getenv('EMAIL_USER')
+        password = os.getenv('EMAIL_PASS')
+        receiver_email = '22803011@mail.jiit.ac.in'
 
         msg = EmailMessage()
         msg['Subject'] = "Color Trails Game Report"
